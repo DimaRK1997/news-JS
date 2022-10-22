@@ -1,20 +1,20 @@
 import './sources.css';
-import { TextSources } from '../../options';
+import { TextSources } from '../../../types';
 class Sources {
   draw(data: TextSources[]) {
     const fragment = document.createDocumentFragment();
-    const sourceItemTemp = document.querySelector('#sourceItemTemp');
-
+    const sourceItemTemp: HTMLTemplateElement = document.querySelector('#sourceItemTemp');
+    const sources: HTMLElement = document.querySelector('.sources');
     data.forEach((item) => {
-      const sourceClone = (sourceItemTemp as HTMLTemplateElement).content.cloneNode(true) as HTMLElement;
+      const sourceClone = sourceItemTemp.content.cloneNode(true) as HTMLElement;
 
-      (sourceClone.querySelector('.source__item-name') as HTMLElement).textContent = item.name;
-      (sourceClone.querySelector('.source__item') as HTMLElement).setAttribute('data-source-id', item.id);
+      sourceClone.querySelector('.source__item-name').textContent = item.name;
+      sourceClone.querySelector('.source__item').setAttribute('data-source-id', item.id);
 
       fragment.append(sourceClone);
     });
 
-    (document.querySelector('.sources') as HTMLElement).append(fragment);
+    sources.append(fragment);
   }
 }
 

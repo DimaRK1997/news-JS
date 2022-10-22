@@ -1,5 +1,5 @@
 import AppLoader from './appLoader';
-import { DataNews, DataSources, Callback } from '../options';
+import { DataNews, DataSources, Callback } from '../../types';
 
 class AppController extends AppLoader {
   getSources(callback: Callback<DataSources>) {
@@ -12,14 +12,14 @@ class AppController extends AppLoader {
   }
 
   getNews(e: Event, callback: Callback<DataNews>) {
-    let target = e.target;
-    const newsContainer = e.currentTarget;
+    let target = e.target as HTMLElement;
+    const newsContainer = e.currentTarget as HTMLElement;
 
     while (target !== newsContainer) {
-      if ((target as HTMLElement).classList.contains('source__item')) {
-        const sourceId = (target as HTMLElement).getAttribute('data-source-id') as string;
-        if ((newsContainer as HTMLElement).getAttribute('data-source') !== sourceId) {
-          (newsContainer as HTMLElement).setAttribute('data-source', sourceId);
+      if (target.classList.contains('source__item')) {
+        const sourceId = target.getAttribute('data-source-id') as string;
+        if (newsContainer.getAttribute('data-source') !== sourceId) {
+          newsContainer.setAttribute('data-source', sourceId);
           super.getResp(
             {
               endpoint: 'everything',
@@ -32,7 +32,7 @@ class AppController extends AppLoader {
         }
         return;
       }
-      target = (target as HTMLElement).parentNode;
+      target = target.parentNode as HTMLElement;
     }
   }
 }
