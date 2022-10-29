@@ -16,5 +16,5 @@ class App {
     this.controller.getSources((data) => this.view.drawSources(data));
   }
 }
-function greet(): any {}
+
 export default App;
