@@ -18,7 +18,7 @@ const optimization = () => {
 module.exports = {
   devtool: 'inline-source-map',
   context: path.resolve(__dirname, 'src'),
-  entry: './index.js',
+  entry: './index.ts',
   output: {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
