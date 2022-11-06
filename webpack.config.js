@@ -24,7 +24,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.tsx', '.ts', '.js', '.css'],
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -36,7 +36,7 @@ module.exports = {
     new CleanWebpackPlugin(),
   ],
   devServer: {
-    port: 4200,
+    port: 3000,
   },
   optimization: optimization(),
   module: {
@@ -48,7 +48,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-Loader', 'css-loader'],
+        use: ['style-loader', 'css-loader'],
       },
       {
         test: /\.(png | svg | jpg)$/,

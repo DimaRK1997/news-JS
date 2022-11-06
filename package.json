@@ -10,10 +10,13 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "format": "npx prettier --write .",
-    "test": "jest",
-    "test:cypress": "start-server-and-test 4200 'cypress run'",
-    "cypress:open": "cypress open",
-    "cypress": "start-server-and-test 4200 cypress:open"
+    "test:jest": "jest",
+    "start-server": "npm run start",
+    "test": "npm run cy:test",
+    "cy:test": "start-server-and-test 3000 cy:run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --spec cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "cy": "start-server-and-test 3000 cy:open"
   },
   "repository": {
     "type": "git",
