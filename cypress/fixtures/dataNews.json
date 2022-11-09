@@ -1,0 +1,71 @@
+{
+    "status": "ok",
+    "totalResults": 4328,
+    "articles": [
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "SETH BORENSTEIN and MATTHEW DALY Associated Press",
+            "title": "US to climate summit: American big steps won't be repealed",
+            "description": "U.S. President Joe Biden is coming to international climate talks in Egypt with a message that historic American action to fight climate change won’t shift into reverse, unlike what happened twice before when Democrats lost power",
+            "url": "https://abcnews.go.com/US/wireStory/us-climate-summit-american-big-steps-repealed-92965731",
+            "urlToImage": "https://s.abcnews.com/images/US/WireAP_6c5e752c70264bef82e32a17d8fccbe0_16x9_992.jpg",
+            "publishedAt": "2022-11-09T10:50:12Z",
+            "content": "SHARM EL-SHEIKH, Egypt -- U.S. President Joe Biden is coming to international climate talks in Egypt this week with a message that historic American action to fight climate change won't shift into re… [+7478 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "NICOLE WINFIELD Associated Press",
+            "title": "Italy backs down on 3 migrant ships, 4th heads to Corsica",
+            "description": "A European humanitarian group says its migrant rescue ship is heading toward the French island of Corsica in hopes that France will offer its 234 passengers a safe port",
+            "url": "https://abcnews.go.com/International/wireStory/italy-backs-migrant-ships-4th-heads-corsica-92970519",
+            "urlToImage": "https://s.abcnews.com/images/International/WireAP_a6faf0f6416e49c084b9442e111e2ae6_16x9_992.jpg",
+            "publishedAt": "2022-11-09T10:44:37Z",
+            "content": "ROME -- A European humanitarian group said Wednesday its migrant rescue ship was heading toward the French island of Corsica in hopes that France will offer its 234 passengers a safe port, after Ital… [+2906 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "SYLVIE CORBET The Associated Press",
+            "title": "France sets its military goals as war is back in Europe",
+            "description": "French President Emmanuel Macron is to unveil the country’s military strategy through the end of the decade for his nuclear-armed country, in the midst of Russia’s war in Ukraine",
+            "url": "https://abcnews.go.com/International/wireStory/france-sets-military-goals-war-back-europe-92970381",
+            "urlToImage": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
+            "publishedAt": "2022-11-09T10:42:10Z",
+            "content": "PARIS -- French President Emmanuel Macron is to unveil Wednesday the country's military strategy through the end of the decade for his nuclear-armed country, in the midst of Russias war in Ukraine. \r… [+2852 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "DAVID RISING Associated Press",
+            "title": "Myanmar tops Asian summit's agenda as global issues loom",
+            "description": "Southeast Asian leaders are convening in Cambodia, faced with the challenge of trying to curtail escalating violence in Myanmar while the country’s military-led government shows no signs of complying with the group’s peace plan",
+            "url": "https://abcnews.go.com/International/wireStory/myanmar-tops-asian-summits-agenda-global-issues-loom-92942787",
+            "urlToImage": "https://s.abcnews.com/images/International/WireAP_2972f6d2773641aab7c903e2e5f0286e_16x9_992.jpg",
+            "publishedAt": "2022-11-09T10:37:09Z",
+            "content": "BANGKOK -- Southeast Asian leaders convene in the Cambodian capital Thursday, faced with the challenge of trying to curtail escalating violence in Myanmar while the countrys military-led government s… [+6331 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "ELAINE KURTENBACH AP Business Writer",
+            "title": "World shares slip as markets await vote results, price data",
+            "description": "World shares are mostly lower as investors await the outcome of the U.S. midterm elections and a major inflation update due Thursday",
+            "url": "https://abcnews.go.com/Business/wireStory/asian-shares-mixed-market-await-vote-results-price-92961608",
+            "urlToImage": "https://s.abcnews.com/images/Business/WireAP_52157c22654b4a7193522a57a4b24e03_16x9_992.jpg",
+            "publishedAt": "2022-11-09T10:29:48Z",
+            "content": "BANGKOK -- World shares were mostly lower on Wednesday as investors awaited the outcome of the U.S. midterm elections and a major inflation update due Thursday. \r\nBenchmarks fell in London, Paris, Fr… [+3607 chars]"
+        }  
+    ]
+}

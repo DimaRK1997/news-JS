@@ -2,7 +2,7 @@ import News from './news/news';
 import Sources from './sources/sources';
 import { DataNews, DataSources } from '../../types';
 
-export class AppView {
+class AppView {
   private news: News;
   private sources: Sources;
   constructor() {

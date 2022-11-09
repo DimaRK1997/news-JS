@@ -1,9 +1,9 @@
 name: Test CI
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   Testing:
@@ -12,8 +12,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install  
+      - name: Install
         run: npm install
 
-      - name: Test  
+      - name: Test Lint
         run: npm run lint:fix
